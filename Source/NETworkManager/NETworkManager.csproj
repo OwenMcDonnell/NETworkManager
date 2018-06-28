@@ -1142,7 +1142,7 @@
   <ItemGroup>
     <Resource Include="NETworkManager.ico" />
   </ItemGroup>
-  <ItemGroup />
+
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>PowerShell.exe -ExecutionPolicy Bypass -NoProfile -File "$(ProjectDir)..\..\Scripts\PreBuildEventCommandLine.ps1" "$(TargetDir)"</PreBuildEvent>
