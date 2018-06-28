@@ -81,9 +81,7 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
-  <ItemGroup>
-    <DotNetCliToolReference Include="dotnet-sourcelink-git" Version="2.7.4" />
-  </ItemGroup>
+
 
   <ItemGroup>
     <Reference Include="AirspaceFixer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
