@@ -82,6 +82,9 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <DotNetCliToolReference Include="dotnet-sourcelink" Version="2.8.0" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="AirspaceFixer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\AirspaceFixer.1.0.5\lib\AirspaceFixer.dll</HintPath>
     </Reference>
