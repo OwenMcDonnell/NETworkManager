@@ -85,9 +85,9 @@
     <PackageReference Include="SourceLink.Create.GitHub" Version="2.7.4" PrivateAssets="all" />
 
   </ItemGroup>
-  <PropertyGroup>
-    <DotNetCliToolReference Include="dotnet-sourcelink-git" Version="2.7.4" />
-  </PropertyGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="dotnet-sourcelink" Version="2.8.3" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="AirspaceFixer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\AirspaceFixer.1.0.5\lib\AirspaceFixer.dll</HintPath>
