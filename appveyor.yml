@@ -3,7 +3,7 @@
 before_build:
  - nuget restore Source/NETworkManager.sln
 build_script: 
-  - dotnet build /p:SourceLinkCreate=true /v:n
+  - dotnet build "./source/NETworkManager.sln" /p:SourceLinkCreate=true /v:n
 image: Visual Studio 2017
 
 configuration: Release
